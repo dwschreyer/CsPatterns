@@ -47,6 +47,16 @@ namespace CsPatternsCli
             Console.WriteLine($"Created At :{createdAt}");
             Console.WriteLine(new string('=', 50));
 
+
+            //Structural Patters Facade
+            Console.WriteLine(nameof(StructuralPatterns.FacadeUsage));
+            var permutations = StructuralPatterns.FacadeUsage.Use();
+            foreach (var item in permutations)
+            {
+                Console.WriteLine($"Permutation :{item}");
+            }
+            Console.WriteLine(new string('=', 50));
+
         }
     }
 }
