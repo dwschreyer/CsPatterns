@@ -47,6 +47,12 @@ namespace CsPatternsCli
             Console.WriteLine($"Created At :{createdAt}");
             Console.WriteLine(new string('=', 50));
 
+            //Creational Patterns Modern Singleton
+            Console.WriteLine("Modern " + nameof(CreationalPatterns.Singleton));
+            var modernCreatedAt = CreationalPatterns.SingltonUsage.GetModernCreatedAt();
+            Console.WriteLine($"Modern Created At :{modernCreatedAt}");
+            Console.WriteLine(new string('=', 50));
+
 
             //Structural Patters Facade
             Console.WriteLine(nameof(StructuralPatterns.FacadeUsage));
