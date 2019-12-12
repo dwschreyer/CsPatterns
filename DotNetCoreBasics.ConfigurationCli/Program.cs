@@ -40,8 +40,8 @@ namespace DotNetCoreBasics.ConfigurationCli
                 {
                     if (provider.TryGet(key, out string value))
                     {
-                        Console.WriteLine($"\tProvider :{provider.GetType().Name}");
-                        Console.WriteLine($"\tValue    :{value}");
+                        Console.WriteLine($"\tProvider     :{provider.GetType().Name}");
+                        Console.WriteLine($"\tValue        :{value}");
                         Console.WriteLine(Environment.NewLine);
                     }
                 }
