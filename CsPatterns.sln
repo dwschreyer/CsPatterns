@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{27CD5FED
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCoreBasics", "DotNetCoreBasics", "{71E89727-D060-445E-94BE-57BD5C5C9F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreBasics.ConfigurationCli", "DotNetCoreBasics.ConfigurationCli\DotNetCoreBasics.ConfigurationCli.csproj", "{219B2F8F-6EE4-4839-ACFC-D7C31A158485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreBasics.ConfigurationCli", "DotNetCoreBasics.ConfigurationCli\DotNetCoreBasics.ConfigurationCli.csproj", "{219B2F8F-6EE4-4839-ACFC-D7C31A158485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreBasics.LoggingCli", "DotNetCoreBasics.LoggingCli\DotNetCoreBasics.LoggingCli.csproj", "{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{219B2F8F-6EE4-4839-ACFC-D7C31A158485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{219B2F8F-6EE4-4839-ACFC-D7C31A158485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{219B2F8F-6EE4-4839-ACFC-D7C31A158485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{E8894FFC-2B39-4E1C-8351-450A9D05CFB4} = {3C321C15-E353-4C2D-8D2F-EBD76F101F81}
 		{A50A12C1-171C-43ED-94A4-3AB99E96B61C} = {3C321C15-E353-4C2D-8D2F-EBD76F101F81}
 		{219B2F8F-6EE4-4839-ACFC-D7C31A158485} = {71E89727-D060-445E-94BE-57BD5C5C9F82}
+		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572} = {71E89727-D060-445E-94BE-57BD5C5C9F82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A84C87C-AE9D-4554-8E27-348A017AC39D}
