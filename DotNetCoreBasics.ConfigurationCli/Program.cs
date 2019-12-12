@@ -14,6 +14,7 @@ namespace DotNetCoreBasics.ConfigurationCli
             Console.WriteLine("Configuration Demo" + Environment.NewLine);
 
             _configuration = new ConfigurationBuilder()
+                //Play around with the order of these providers.
                 .AddJsonFile("appsettings.json", false, true)
                 .AddEnvironmentVariables()
                 .AddCommandLine(args)
