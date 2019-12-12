@@ -19,18 +19,17 @@ namespace DotNetCoreBasics.ConfigurationCli
                 .AddCommandLine(args)
                 .Build();
 
-            WriteOutput();
+            WriteProviderOutput();
+            WriteConfigurationOutput();
 
-            Console.WriteLine("Environment Output" + Environment.NewLine);
-            foreach (var key in _keys)
-            {
-                Console.WriteLine($"\t{key}    : {_configuration[key]}");
-                Console.WriteLine(Environment.NewLine);
-            }
-            Console.WriteLine(_breakLine);
+            Console.WriteLine("Modify the 'appsettings.json' file and press any key to continue.");
+            Console.ReadKey();
+
+            WriteProviderOutput();
+            WriteConfigurationOutput();
         }
 
-        private static void WriteOutput()
+        private static void WriteProviderOutput()
         {
             foreach (var key in _keys)
             {
@@ -46,6 +45,17 @@ namespace DotNetCoreBasics.ConfigurationCli
                         Console.WriteLine(Environment.NewLine);
                     }
                 }
+            }
+            Console.WriteLine(_breakLine);
+        }
+
+        private static void WriteConfigurationOutput()
+        {
+            Console.WriteLine("Environment Output" + Environment.NewLine);
+            foreach (var key in _keys)
+            {
+                Console.WriteLine($"\t{key}    : {_configuration[key]}");
+                Console.WriteLine(Environment.NewLine);
             }
             Console.WriteLine(_breakLine);
         }
