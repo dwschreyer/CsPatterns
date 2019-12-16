@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreBasics.Configurat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreBasics.LoggingCli", "DotNetCoreBasics.LoggingCli\DotNetCoreBasics.LoggingCli.csproj", "{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreBasics", "AspNetCoreBasics", "{C1AC0087-A698-4A5B-836A-1FDA81C37D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreBasics.ApiSamples", "AspNetCoreBasics.ApiSamples\AspNetCoreBasics.ApiSamples.csproj", "{8EE9A0EC-2D36-48DC-942E-DF809D47D347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE9A0EC-2D36-48DC-942E-DF809D47D347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE9A0EC-2D36-48DC-942E-DF809D47D347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE9A0EC-2D36-48DC-942E-DF809D47D347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE9A0EC-2D36-48DC-942E-DF809D47D347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{A50A12C1-171C-43ED-94A4-3AB99E96B61C} = {3C321C15-E353-4C2D-8D2F-EBD76F101F81}
 		{219B2F8F-6EE4-4839-ACFC-D7C31A158485} = {71E89727-D060-445E-94BE-57BD5C5C9F82}
 		{0B8F91CF-1C62-44F1-BFC8-C40E74E18572} = {71E89727-D060-445E-94BE-57BD5C5C9F82}
+		{8EE9A0EC-2D36-48DC-942E-DF809D47D347} = {C1AC0087-A698-4A5B-836A-1FDA81C37D51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A84C87C-AE9D-4554-8E27-348A017AC39D}
