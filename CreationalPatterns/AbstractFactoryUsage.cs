@@ -23,7 +23,10 @@ namespace CreationalPatterns
 
             var result = factory.CreateVehicle();
             result.Start();
-            return result; //Return IVehicle and not TVehicle; TVehicle would be the concrete type, we want the abstract type (IVehicle).
+
+            //Return IVehicle and NOT TVehicle
+            //TVehicle would be the concrete type, we want the abstract type (IVehicle).
+            return result; 
         }
     }
 }
