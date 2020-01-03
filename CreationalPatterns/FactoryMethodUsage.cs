@@ -11,6 +11,7 @@ namespace CreationalPatterns
         {
             var fastenerFactory = new FastenerFactory();
             var result = fastenerFactory.GetFastener(FastenerType.Bolt);
+            var code = result.GetCode(); //!Important part
             return result;
         }
     }

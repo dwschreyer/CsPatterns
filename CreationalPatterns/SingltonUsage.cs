@@ -12,5 +12,11 @@ namespace CreationalPatterns
             var result = ApplicationContext.Instance.CreatedAt;
             return result;
         }
+
+        public static DateTime GetModernCreatedAt()
+        {
+            var result = ModernApplicationContext.Instance.CreatedAt;
+            return result;
+        }
     }
 }
